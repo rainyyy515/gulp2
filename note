@@ -1,0 +1,13 @@
+連結github 
+git init # 初始化
+git add .
+git commit -m "first commit"
+git remote add origin [GitHub Repositories Url]
+git branch -M main
+git push -u origin main// 僅限第一次輸入，往後只需要輸入 git push
+
+
+EJS: 樣板語言(template language) -版面多-版型管理
+共通區塊(Layout)--每個頁面都會出現的區塊    
+
+app/index.html + app/layout.ejs 組合起來輸出成 dist/index.html
